@@ -6,7 +6,7 @@ Simple Todo application written in Vue.js
 ### Install the backend application
 Point your browser 👉 [here](https://github.com/geraldsanga/todo-app-backend/) to follow instructions on how to install the backend application.
 
-### Install all dependencies
+### Install all dependencies 🛒
 ```
 npm install
 ```
