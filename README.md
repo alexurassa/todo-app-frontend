@@ -1,24 +1,17 @@
-# todo
+# todo-app-frontend ⏲️
+Simple Todo application written in Vue.js
 
-## Project setup
+## Project setup ⚙️
+
+### Install the backend application
+Point your browser 👉 [here](https://github.com/geraldsanga/todo-app-backend/) to follow instructions on how to install the backend application.
+
+### Install all dependencies
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compiles and hot-reloads for development ⚡
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
