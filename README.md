@@ -1,5 +1,10 @@
 # todo-app-frontend ⏲️
-Simple Todo application written in Vue.js
+Todo application written in Vue.js
+
+## Things you can do 🤠:
+* Create todo 📎
+* View todo 👀
+* Delete todo ❎
 
 ## Project setup ⚙️
 
