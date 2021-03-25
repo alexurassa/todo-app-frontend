@@ -2,10 +2,7 @@
   <div id="nav">
     <Header />
   </div>
-  <transition name='view' appear enter-active-class="animate__animated animate__fadeInLeft" leave-active-class="animate__animated animate__bounce">
-    <router-view></router-view>
-  </transition>
-  
+  <router-view></router-view>  
 </template>
 
 <script>
