@@ -22,6 +22,7 @@
 import TodoItem from "@/components/TodoItem.vue";
 import store from "../store";
 export default {
+  name: "TodoBox",
   store: store,
   components: {
     TodoItem,

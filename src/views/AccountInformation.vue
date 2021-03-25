@@ -16,6 +16,7 @@
 <script>
 import UserDescription from '@/components/UserDescription.vue'
 export default {
+    name: "AccountInformation",
     components: {
         UserDescription,
     }
