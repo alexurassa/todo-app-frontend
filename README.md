@@ -1,3 +1,4 @@
+![Logo](/repo-assets/todo.png)
 # todo-app-frontend ⏲️
 Todo application written in Vue.js
 
