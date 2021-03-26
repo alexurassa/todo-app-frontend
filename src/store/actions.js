@@ -11,7 +11,6 @@ export default {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json', 
-                'Authorization': `Token ${state.getters.getToken}`,
             },
             body: body,
         })
@@ -22,7 +21,7 @@ export default {
 
     },
     async getTodos(state) {
-        fetch(todo_list_url, {method: 'GET', headers: {'Authorization': `Token ${state.getters.getToken}`}})
+        fetch(todo_list_url, {method: 'GET'})
         .then(response => {
             if(response.status == 401) {
                 localStorage.clear();

@@ -27,9 +27,6 @@ export default {
   components: {
     TodoItem,
   },
-  mounted () {
-    console.log(this.$store.getters.getTodos)
-  }
 };
 </script>
 <style >
