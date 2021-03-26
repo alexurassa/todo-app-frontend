@@ -2,8 +2,6 @@
   <div class="home">
     <TodoBox />
     <TodoForm />
-
-    <div class="row"></div>
   </div>
 </template>
 
