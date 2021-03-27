@@ -3,12 +3,11 @@
         <div class="card" >
             <div class="card-header">Account Information</div>
             <div class="card-body">
-                <h6 class="card-subtitle mb-2 text-muted">@{{username}}</h6>
-                <p class="card-text">Username: <span class="user_description__text">@{{ username }}</span></p>
-                <p class="card-text">First Name: <span class="user_description__text">{{ first_name }}</span></p>
-                <p class="card-text">Last Name: <span class="user_description__text">{{ last_name }}</span></p>
-                <p class="card-text">Email Address: <span class="user_description__text">{{ email_address }}</span></p>
-
+                <h6 class="card-subtitle mb-2 text-muted">@{{user.username}}</h6>
+                <p class="card-text">Username: <span class="user_description__text">@{{ user.username }}</span></p>
+                <p class="card-text">First Name: <span class="user_description__text">{{ user.first_name }}</span></p>
+                <p class="card-text">Last Name: <span class="user_description__text">{{ user.last_name }}</span></p>
+                <p class="card-text">Email Address: <span class="user_description__text">{{ user.email_address }}</span></p>
             </div>
         </div>
     </div>
@@ -16,14 +15,9 @@
 <script>
 export default {
     name: "UserDescription",
-    components: {}, 
-    data () {
-        return {
-            username: this.$store.getters.getUser.username,
-            first_name: this.$store.getters.getUser.first_name,
-            last_name: this.$store.getters.getUser.last_name,
-            email_address: this.$store.getters.getUser.email_address,
-
+    computed: {
+        user(){
+            return this.$store.getters.getUser
         }
     }
 }
